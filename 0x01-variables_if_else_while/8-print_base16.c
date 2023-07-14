@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints a base number of 16 in lowercase
+ * main -Prints numbers between 0 to 9 and letters between a to f.
  *
  * Return: Always 0 (Success)
 */
@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(i);
 	}
-	for (i = 97; i < 103; i++);
+	for (i = 97; i < 103; i++)
 	{
 		putchar(i);
 	}
